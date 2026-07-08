@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Panchan Skills pixel badge</title>
+  <rect x="10" y="10" width="76" height="76" fill="#fff7ed"/>
+  <path d="M10 10h76v8H18v68h-8V10Z" fill="#f9a8d4"/>
+  <path d="M78 18h8v68H18v-8h60V18Z" fill="#1f2937"/>
+  <rect x="22" y="24" width="52" height="40" fill="#bae6fd" stroke="#1f2937" stroke-width="6"/>
+  <rect x="30" y="32" width="12" height="8" fill="#fef08a"/>
+  <rect x="48" y="32" width="18" height="8" fill="#ffffff"/>
+  <rect x="30" y="48" width="36" height="6" fill="#1f2937"/>
+  <rect x="24" y="66" width="12" height="8" fill="#f472b6" stroke="#1f2937" stroke-width="4"/>
+  <rect x="42" y="66" width="12" height="8" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <rect x="60" y="66" width="12" height="8" fill="#86efac" stroke="#1f2937" stroke-width="4"/>
+  <path d="M48 18l4 8 8 1-6 6 2 8-8-4-8 4 2-8-6-6 8-1 4-8Z" fill="#f472b6" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+</svg>

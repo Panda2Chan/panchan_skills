@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: "Trebuchet MS", ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+@layer base {
+  :root {
+    --ink: 31 41 55;
+    --cream: 255 247 237;
+  }
+}
+
+@layer utilities {
+  .text-ink {
+    color: rgb(var(--ink));
+  }
+
+  .bg-ink {
+    background-color: rgb(var(--ink));
+  }
+
+  .bg-cream {
+    background-color: rgb(var(--cream));
+  }
+
+  .border-ink {
+    border-color: rgb(var(--ink));
+  }
+
+  .bg-pixel-grid {
+    background-image:
+      linear-gradient(rgba(31, 41, 55, 0.12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(31, 41, 55, 0.12) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+
+  .image-render-pixel {
+    image-rendering: pixelated;
+  }
+}
+
+@layer components {
+  .control {
+    min-height: 3rem;
+    border: 2px solid rgb(var(--ink));
+    background: white;
+    padding: 0.5rem 0.75rem;
+    font-weight: 800;
+    color: rgb(var(--ink));
+    box-shadow: 3px 3px 0 rgb(var(--ink));
+    outline: none;
+    transition: background-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .control:focus {
+    background: #fefce8;
+    box-shadow: 0 0 0 4px #bae6fd, 3px 3px 0 rgb(var(--ink));
+  }
+
+  .chip {
+    border: 2px solid rgb(var(--ink));
+    background: #f8fafc;
+    padding: 0.25rem 0.5rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.75rem;
+    font-weight: 900;
+    color: rgb(var(--ink));
+  }
+
+  .chip-scripts,
+  .chip-github {
+    background: #bae6fd;
+  }
+
+  .chip-references {
+    background: #fde68a;
+  }
+
+  .chip-assets {
+    background: #fbcfe8;
+  }
+
+  .chip-agents,
+  .chip-version {
+    background: #bbf7d0;
+  }
+
+  .chip-tag {
+    background: #ddd6fe;
+  }
+}
+

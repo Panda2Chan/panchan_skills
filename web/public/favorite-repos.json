@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "repositories": [
+    {
+      "id": "leonxlnx-taste-skill",
+      "name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill gives AI better frontend taste and reduces generic visual output.",
+      "note": "前端审美、重设计、image-to-code 和高端视觉方向的参考 skill 集合。",
+      "tags": ["frontend", "design", "skills"],
+      "skillPaths": ["skills/taste-skill", "skills/redesign-skill"],
+      "addedAt": "2026-07-08"
+    },
+    {
+      "id": "fission-ai-openspec",
+      "name": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "note": "OpenSpec 工作流参考仓库，用于规范驱动开发、变更提案和任务拆分。",
+      "tags": ["openspec", "sdd", "workflow"],
+      "skillPaths": [],
+      "addedAt": "2026-07-08"
+    },
+    {
+      "id": "jcodesmore-ai-website-cloner-template",
+      "name": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents.",
+      "note": "AI 网站克隆模板参考，可用于研究前端复制、快速原型和自动化页面生成。",
+      "tags": ["frontend", "template", "clone"],
+      "skillPaths": [],
+      "addedAt": "2026-07-08"
+    }
+  ]
+}

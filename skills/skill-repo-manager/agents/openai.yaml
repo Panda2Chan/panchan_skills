@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Repo Manager"
+  short_description: "Help with Skill Repo Manager workflows"
+  default_prompt: "Use $skill-repo-manager to add or update a skill in the central skills repository."
