@@ -18,13 +18,7 @@ skills/* ── build_site.py ──> dist/index.json
 
 当前仓库已发布 1 个 skill：
 
-- **skill-repo-manager** `v0.1.0`
-  - 标签：`registry`、`github-pages`、`workflow`
-  - 维护者：`panchan`
-  - 源码：`skills/skill-repo-manager`
-  - 下载包：[skill-repo-manager.zip](https://panda2chan.github.io/panchan_skills/packages/skill-repo-manager.zip)
-  - 用途：维护一个云端集中管理的 Codex skills 仓库，适用于新增、
-    更新、校验、打包、索引和发布 `skills/` 下的 skill。
+- **skill-repo-manager**：维护一个云端集中管理的 Codex skills 仓库，支持新增、更新、校验、打包、索引和发布 skill。
 
 
 ## 快速开始
